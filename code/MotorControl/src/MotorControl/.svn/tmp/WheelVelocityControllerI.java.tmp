@@ -1,0 +1,60 @@
+package MotorControl;
+
+/**
+ * <p>Closed-loop integral wheel velocity controller.</p>
+ *
+ * @author vona
+ * @author prentice
+ **/
+public class WheelVelocityControllerI extends WheelVelocityController {
+
+  /**
+   * <p>The result of the previous control step.</p>
+   **/
+  
+  protected double integral = 0;
+  
+  /**
+   * {@inheritDoc}
+   *
+   * <p>This impl implements closed-loop integral control.</p>
+   **/
+  public double controlStep() {
+	//Code for Motion Control Lab, Part 10
+    double result = 0;
+
+    double error = desiredAngularVelocity - computeAngularVelocity();
+    
+    integral += error * sampleTime;
+    
+    result = gain * integral;
+    
+    //System.out.println("New Stats");
+    //System.out.println(integral);
+    //System.out.println(error);
+    //System.out.println(desiredAngularVelocity);
+    //System.out.println(computeAngularVelocity());
+    //System.out.println(result);
+
+    if (result > MAX_PWM)
+      result = MAX_PWM;
+    if (result < -MAX_PWM)
+      result = -MAX_PWM;
+
+    return result;
+  }
+
+//  public void resetIntegral(){
+//    integral = 0;
+//  }
+
+
+  /**
+   * {@inheritDoc}
+   *
+   * <p>This impl returns "I".</p>
+   **/
+  public String getName() {
+    return "I";
+  }
+}

@@ -1,0 +1,11 @@
+<launch>
+  <machine name="netbook" address="netbook">
+     <env name="ROS_MASTER_URI" value="http://netbook:11311" />
+     <env name="ROS_HOSTNAME" value="netbook" />
+  </machine>
+
+  <node name="map" pkg="rosjava_bootstrap" type="run.py" args="challenge MapFiles.GrandChallengeMap" machine="netbook">
+	<param name="mapFileName" value="/home/rss-student/RSS-I-group/challenge/src/construction_map_2012.txt" />  
+  </node> 
+
+</launch>

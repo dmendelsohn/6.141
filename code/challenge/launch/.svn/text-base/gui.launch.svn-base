@@ -1,0 +1,10 @@
+<launch>
+  <machine name="workstation" address="netbook">
+     <env name="ROS_MASTER_URI" value="http://netbook:11311" />
+     <env name="ROS_HOSTNAME" value="netbook" />
+  </machine>
+
+  <node name="gui" pkg="rosjava_bootstrap" type="run.py" args="challenge MapFiles.ConstructionGUI" machine="workstation">
+  </node> 	  
+
+</launch>

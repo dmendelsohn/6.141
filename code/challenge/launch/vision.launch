@@ -1,0 +1,31 @@
+<launch>
+ 	<!--<machine name="netbook" address="netbook">
+  	   <env name="ROS_MASTER_URI" value="http://netbook:11311" />
+  	   <env name="ROS_HOSTNAME" value="netbook" />
+  	</machine>-->
+
+  	<include file="$(find lab4)/launch/config.launch" />
+
+	<env name="GSCAM_CONFIG" value="v4l2src device=/dev/video0 ! video/x-raw-rgb,framerate=30/1,width=160,height=120 ! ffmpegcolorspace " />
+ 	<node name="vid" pkg="gscam" type="gscam" machine="netbook" /> 
+
+  	<node name="map" pkg="rosjava_bootstrap" type="run.py" args="challenge MapFiles.GrandChallengeMap" machine="netbook">
+  		<param name="mapFileName" value="/home/rss-student/RSS-I-group/challenge/src/construction_map_2012.txt" />  
+  	</node>
+
+	<!-- Nodes for camera stuff -->
+	<node name="rep" pkg="topic_tools" type="relay" args="/gscam/image_raw /rss/video" machine="netbook"/>
+	<node name="view" pkg="image_view" type="image_view" args="image:=/rss/video" machine="netbook" />
+ 	<node name="gui" pkg="rosjava_bootstrap" type="run.py" args="challenge Vision.VisionGUI" machine="netbook" output="screen" />
+
+	<!-- Core nodes for uORC publishing/listening, for odometry -->
+	<node name="pub" pkg="rosjava_bootstrap" type="run.py" args="uorc_publisher Publisher" machine="netbook" />
+	<node name="odo" pkg="rosjava_bootstrap" type="run.py" args="odometry odometry.Odometry" machine="netbook" />
+	<node name="lis" pkg="rosjava_bootstrap" type="run.py" args="uorc_listener Listener" machine="netbook" />
+
+	<!-- Our nodes -->
+	<node name="vision" pkg="rosjava_bootstrap" type="run.py" args="challenge Vision.Vision" machine="netbook" output="screen">
+  		<param name="mapFileName" value="/home/rss-student/RSS-I-group/challenge/src/construction_map_2012.txt" />
+	</node>
+
+</launch>

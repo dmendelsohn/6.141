@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 47
+/rss-2015/group6/!svn/ver/1201/challenge/launch
+END
+vision.launch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/rss-2015/group6/!svn/ver/1081/challenge/launch/vision.launch
+END
+sim.launch
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/rss-2015/group6/!svn/ver/1201/challenge/launch/sim.launch
+END
+map.launch
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/rss-2015/group6/!svn/ver/940/challenge/launch/map.launch
+END
+pathfind.launch
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rss-2015/group6/!svn/ver/1033/challenge/launch/pathfind.launch
+END
+simplenav.launch
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/rss-2015/group6/!svn/ver/1015/challenge/launch/simplenav.launch
+END
+logger.launch
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/rss-2015/group6/!svn/ver/1201/challenge/launch/logger.launch
+END
+gui.launch
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/rss-2015/group6/!svn/ver/941/challenge/launch/gui.launch
+END
+nav.launch
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/rss-2015/group6/!svn/ver/1018/challenge/launch/nav.launch
+END

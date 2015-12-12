@@ -1,0 +1,270 @@
+10
+
+dir
+1126
+https://svn.csail.mit.edu/rss-2015/group6
+https://svn.csail.mit.edu/rss-2015/group6
+
+
+
+2015-05-06T01:18:13.170569Z
+1126
+rss-student
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+fa04f689-592e-4e37-abff-290627cacbaa
+
+challenge_old
+dir
+
+challenge
+dir
+
+lab4
+dir
+
+lab5
+dir
+
+lab6
+dir
+
+.project
+file
+
+
+
+
+2015-03-04T06:28:36.000000Z
+af8c2284ea1187899b16934e51800302
+2015-03-04T05:27:55.237523Z
+348
+rss-student
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+380
+
+lab7
+dir
+
+uorc_publisher
+dir
+
+src
+dir
+
+roscv
+dir
+
+Chassis
+dir
+
+pictures
+dir
+
+.classpath
+file
+
+
+
+
+2015-03-04T06:28:36.000000Z
+0157843935a2747ac13bb6b03409b475
+2015-03-04T05:27:55.237523Z
+348
+rss-student
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+307
+
+rss_msgs
+dir
+
+XtionTest
+dir
+
+MotorControl
+dir
+
+odometry
+dir
+
+memberlist
+file
+
+
+
+
+2015-02-17T20:47:46.000000Z
+057022e79129c49cdb0024a4e793e272
+2015-02-11T21:30:54.201223Z
+5
+rss-student
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+55
+
+orc_utils
+dir
+
+uORCInterface.jar
+file
+
+
+
+
+2015-02-17T20:46:28.000000Z
+9af98858c986318e85eed24983743119
+2015-02-11T21:36:21.247687Z
+6
+rss-student
+has-props
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+12784
+
+video_settings.txt
+file
+
+
+
+
+2015-05-02T21:57:20.000000Z
+abc22c67034537da1d3e7b06f053c6ca
+2015-02-20T19:42:27.848128Z
+146
+rss-student
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+690
+
+OpenNI-Linux-x86-2.2
+dir
+
+challenge_msgs_old
+dir
+
+Challenge_msgs
+dir
+
+lab5_msgs
+dir
+
+uorc_listener
+dir
+
+ ~
+dir
+
+lab6_msgs
+dir
+
+.settings
+dir
+

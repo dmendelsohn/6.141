@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision
+END
+GaussianBlur.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/GaussianBlur.java
+END
+Fiducial.java
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/Fiducial.java
+END
+BlobTracking.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/BlobTracking.java
+END
+ImageBlob.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/ImageBlob.java
+END
+Image.java
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/Image.java
+END
+Vision.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/Vision.java
+END
+ConnectedComponents.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/ConnectedComponents.java
+END
+Localization.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/Localization.java
+END
+XtionVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/XtionVideo.java
+END
+VisionGUI.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/VisionGUI.java
+END
+Histogram.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/Histogram.java
+END
+HistogramTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/rss-2015/group6/!svn/ver/896/challenge_old/src/Vision/HistogramTest.java
+END

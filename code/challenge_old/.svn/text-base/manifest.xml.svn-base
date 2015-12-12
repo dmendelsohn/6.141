@@ -1,0 +1,28 @@
+<package>
+  <description brief="challenge_old">
+
+     challenge_old
+
+  </description>
+  <author>rss-staff</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <depend package="rosjava"/>
+  <depend package="roscv" />
+  <depend package="rss_msgs"/>
+  <depend package="sensor_msgs" />
+  <depend package="image_transport" />
+  <depend package="challenge_msgs" />
+
+  
+  <depend package="lab5_msgs" />
+  <depend package="lab6_msgs" />
+  
+  <export>
+    <rosjava-src location="src"/>
+    <rosjava-pathelement location="target/" groupId="org.ros" artifactId="challenge_old" version="0.0" built="true" />
+  </export>
+
+</package>
+
+

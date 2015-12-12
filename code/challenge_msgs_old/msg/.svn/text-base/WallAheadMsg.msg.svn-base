@@ -1,0 +1,2 @@
+bool isWallAhead
+float64 wallAheadDistance

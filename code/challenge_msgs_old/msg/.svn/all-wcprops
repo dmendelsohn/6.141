@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg
+END
+GUIEraseMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUIEraseMsg.msg
+END
+GUISegmentMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUISegmentMsg.msg
+END
+GUIPolyMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUIPolyMsg.msg
+END
+DriveMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/DriveMsg.msg
+END
+GUILineMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUILineMsg.msg
+END
+ColorMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/ColorMsg.msg
+END
+GUIPointMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUIPointMsg.msg
+END
+GUIRectMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/GUIRectMsg.msg
+END
+WallAheadMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/rss-2015/group6/!svn/ver/896/challenge_msgs_old/msg/WallAheadMsg.msg
+END

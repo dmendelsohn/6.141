@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 42
+/rss-2015/group6/!svn/ver/824/rss_msgs/msg
+END
+BumpMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/rss-2015/group6/!svn/ver/575/rss_msgs/msg/BumpMsg.msg
+END
+AnalogStatusMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/AnalogStatusMsg.msg
+END
+MotionMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/rss-2015/group6/!svn/ver/824/rss_msgs/msg/MotionMsg.msg
+END
+BreakBeamMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 59
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/BreakBeamMsg.msg
+END
+ArmMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/ArmMsg.msg
+END
+EncoderMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/EncoderMsg.msg
+END
+DigitalStatusMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/DigitalStatusMsg.msg
+END
+OdometryMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/OdometryMsg.msg
+END
+ResetMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/rss-2015/group6/!svn/ver/137/rss_msgs/msg/ResetMsg.msg
+END
+SonarMsg.msg
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/rss-2015/group6/!svn/ver/824/rss_msgs/msg/SonarMsg.msg
+END

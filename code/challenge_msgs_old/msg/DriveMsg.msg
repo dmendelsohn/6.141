@@ -1,0 +1,3 @@
+std_msgs/String command
+float64 translationalVelocity
+float64 turnAngle
